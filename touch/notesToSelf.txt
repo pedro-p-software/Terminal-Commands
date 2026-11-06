@@ -1,0 +1,7 @@
+LESSON 1) if you pass an integer as an argument to main function, it reads the amount
+of arguments it receives, not an actual integer. I do think it counts an integer if you put it though.
+
+So when you pass argv int and argc char[], the loop goes through amount of strings, which is what "i" is indicating. Not the current string char.
+
+Probably why the loop starts at 1 and not 0 also.
+It actually starts at one because 0 is the command's name.
