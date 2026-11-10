@@ -15,7 +15,7 @@ int main(int argv, char *argc[]){
       perror("Error opening file or smth");
       return 1;
     }
-
+    
   }
   return 0;
 }
