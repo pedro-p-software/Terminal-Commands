@@ -12,14 +12,14 @@ int main(int argc, char *argv[])
     FILE *fptr = fopen(argv[i], "r");
     
     if (!fptr){
-      perror("Error opening file or smth\n");
+      perror("Error opening file or smth");
       return 1;
     }
 
     while((ch = fgetc(fptr)) != EOF){
       putchar(ch);
     }
-    printf("Other file below\n")
+    printf("Other file below\n");
   }
 
   return 0;
